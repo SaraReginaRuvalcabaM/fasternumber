@@ -1,0 +1,38 @@
+body{
+    background:url(Pjeh.gif);
+    background-repeat:no-repeat;
+    background-size:100% 100% ;
+}
+h1{color:rgb(225, 240, 15);
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding: 0.5em;
+    border: solid;
+    border-color:rgb(22, 58, 219) ;}
+.botones{
+        width: 200px;
+        height: 50px;
+        background-color: rgb(12, 15, 214);
+        color: rgb(5, 236, 224);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        cursor: pointer;
+        border-radius: 20px;
+        text-decoration: none;
+        text-decoration-line: none;
+        
+        }
+.botones:hover {
+    opacity: 0.8;
+background-color: rgb(3, 18, 68);
+}
+.d{
+    background: linear-gradient(to right,   rgb(81, 238, 217),  rgb(5, 141, 151));
+    color: rgb(4, 5, 66);
+    border: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(80, 152, 235);
+    width: 33%;
+    height: 100px;
+    font-size: 30px;
+    }

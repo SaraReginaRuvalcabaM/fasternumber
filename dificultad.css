@@ -1,0 +1,17 @@
+
+h1{color:rgb(225, 240, 15);
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding: 0.5em;
+    border: none;
+    
+   }
+.botones{
+    background-color: rgb(5, 3, 129);
+    border-radius: 15px;
+    color:aqua;
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to right,   rgb(12, 116, 214),  rgb(9, 10, 107));
+   }

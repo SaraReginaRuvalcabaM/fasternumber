@@ -1,0 +1,42 @@
+
+body {
+	background-image: url('FONDito.webp');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.botonimagen{
+	background-image:url(db1jvj7-8607c2d9-72f6-4e16-9be1-13e27cf2e537\ \(1\).gif);
+	background-repeat:no-repeat;
+	height:80px;
+	width:120px;
+	background-position:center;
+	background-color: orange;
+	background-size: 100% 100%;
+	
+  }
+  .botonimagen2{
+	background-image:url(db1jvj7-8607c2d9-72f6-4e16-9be1-13e27cf2e537\ \(1\).gif);
+	background-repeat:no-repeat;
+	height:80px;
+	width:120px;
+	background-position:center;
+	background-size: 100% 100%;
+  }
+  .botonimagen3{
+	background-image:url(db1jvj7-8607c2d9-72f6-4e16-9be1-13e27cf2e537\ \(1\).gif);
+	background-repeat:no-repeat;
+	height:80px;
+	width:120px;
+	background-position:center;
+	background-size: 100% 100%;
+  }
+  .contador{ background-color: transparent;
+border: none;
+color: rgb(252, 247, 247);
+font-size: 20px;
+}
+.contador1{ background-color: transparent;
+	border: none;
+	color: rgb(252, 247, 247);
+	font-size: 20px;
+	margin-right: 700px;}

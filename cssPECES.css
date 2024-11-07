@@ -1,0 +1,77 @@
+.xs{
+    background-image: url("Jinete_Azul.png");
+    
+    }
+    body {
+        background-image: url('FONDITOpecesitos.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 135%;
+    }
+    .botonimagen{
+        background-image:url(pecesito.webp);
+        background-repeat:no-repeat;
+        height:80px;
+        width:120px;
+        color: rgb(39, 11, 197);
+        font-size: 18px;
+        background-position:center;
+        background-color: rgb(31, 60, 189);
+        background-size: 100% 100%;
+        
+      }
+      .botonimagen2{
+        background-image:url(Pescadito2.png);
+        background-repeat:no-repeat;
+        height:80px;
+        width:120px;
+        color: aqua;
+        font-size: 18px;
+        background-color: rgb(31, 60, 189);
+        background-position:center;
+        background-size: 100% 100%;
+      }
+      .botonimagen3{
+        background-image:url(Pescadito3.png);
+        background-repeat:no-repeat;
+        height:80px;
+        width:120px;
+        color: aqua;
+        font-size: 18px;
+        background-color: rgb(31, 60, 189);
+        background-position:center;
+        background-size: 100% 100%;
+      }
+    
+    .botonimagen4{
+      background-image:url(Pescadito4.png);
+      background-repeat:no-repeat;
+      height:80px;
+      width:120px;
+      color: rgb(9, 32, 241);
+      font-size: 18px;
+      background-color: rgb(31, 60, 189);
+      background-position:center;
+      background-size: 100% 100%;
+    }
+  
+  .botonimagen5{
+    background-image:url(Pescadito5.jpg);
+    background-repeat:no-repeat;
+    height:80px;
+    width:120px;
+    color: rgb(241, 199, 9);
+    font-size: 18px;
+    background-color: rgb(31, 60, 189);
+    background-position:center;
+    background-size: 100% 100%;
+  }
+      .contador{ background-color: transparent;
+    border: none;
+    color: rgb(9, 9, 231);
+    font-size: 20px;
+    }
+    .contador1{ background-color: transparent;
+        border: none;
+        color: rgb(11, 11, 250);
+        font-size: 20px;
+        margin-right: 700px;}

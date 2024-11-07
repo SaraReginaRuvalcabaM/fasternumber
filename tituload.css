@@ -1,0 +1,44 @@
+body{background-color: rgb(5, 82, 9);
+    
+}
+h2{color:rgb(75, 253, 51);
+    font-size: 25px;
+    font-family:'Arial';
+    text-transform: uppercase;
+
+    
+    }
+.usuario2{
+width: 200px;
+height: 30px;
+background-color: rgb(6, 66, 4);
+color: rgb(246, 246, 252);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.botonsesion{
+    background-color:transparent;
+    height: 10px;
+    width:100%;
+    display: flex;
+    
+    justify-content: right;
+    justify-items: right;
+}
+.em{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(17, 66, 4);
+    color: rgb(246, 246, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: rgb(255, 238, 0);
+    text-decoration: none;
+    text-decoration-line: none;
+    
+    }
+.em:hover{
+    opacity: 0.8;
+background-color: rgb(51, 255, 0);
+}

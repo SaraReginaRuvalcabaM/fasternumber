@@ -1,0 +1,38 @@
+body{
+    background:url(82FA.gif);
+    background-repeat:no-repeat;
+    background-size:100% 120% ;
+}
+h1{color:rgb(15, 19, 240);
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding: 0.5em;
+    border: solid;
+    border-color:rgb(22, 58, 219) ;}
+.botones{
+        width: 200px;
+        height: 50px;
+        background-color: rgb(12, 15, 214);
+        color: rgb(5, 236, 224);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        cursor: pointer;
+        border-radius: 20px;
+        text-decoration: none;
+        text-decoration-line: none;
+        background: linear-gradient(to right,   rgb(12, 214, 12),  rgb(9, 10, 107));
+        }
+.botones:hover {
+    opacity: 0.8;
+background-color: rgb(3, 18, 68);
+}
+.d{
+    background: linear-gradient(to right,   rgb(12, 116, 214),  rgb(9, 10, 107));
+    color: rgb(32, 5, 49);
+    border: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(13, 63, 121);
+    width: 33%;
+    height: 100px;
+    font-size: 30px;
+    }

@@ -1,0 +1,55 @@
+body{background-image:url(numeros.jpg);
+    
+    }
+.log{
+    background-color: rgb(238, 77, 13);
+    
+}
+.logtd{
+    width: 500px;
+    height: 80px;
+}
+.usuario{
+    width:300px;
+    height: 70px;
+    background-color: rgb(2, 14, 14);
+    color: rgb(246, 246, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    border-radius: 20px;
+    }
+.usuario2{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(2, 14, 14);
+    color: rgb(246, 246, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+input::placeholder{
+    color: rgb(248, 224, 6);
+}
+.usuario:hover {
+        opacity: 0.8;
+    background-color: rgb(187, 9, 69);
+    }
+
+    
+h1.log{
+    color:rgb(232, 236, 20);
+font-size: 15px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+text-transform: uppercase;
+padding: 0.5em;
+width: 100px;
+}
+.login{
+    background: rgb(248, 5, 5);
+    border: solid;
+    border-color: rgb(253, 142, 15);
+    color: rgb(252, 188, 13);
+    width: 200px;
+    font-family:Arial;
+    height: 50px;
+    font-size: 30px;
+    cursor: pointer;}

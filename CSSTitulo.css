@@ -1,0 +1,139 @@
+  
+@import
+url(&#39;https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&amp;display=swap&#39;);
+html{
+font-size: 62.5%;
+box-sizing: border-box;
+}
+*, *::before, *::after{
+box-sizing: inherit;
+}
+
+.logo{
+width: 120px;
+height: 90px;
+}
+nav{
+display: flex;
+
+align-items: center;
+justify-content: space-around;
+min-height: 8vh;
+background-color: rgb(40, 184, 11);
+
+}
+.ham{
+display: none;
+cursor: pointer;
+border: none;
+margin: 0;
+padding: 0;
+background-color:transparent;
+}
+.ham span{
+display: block;
+background-color: aqua;
+height: 8px;
+width: 8px;
+margin: 10px auto;
+border-radius: 2px;
+}
+.opciones{
+display: flex;
+padding: 0;
+}
+.opciones li{
+padding: 0 40px;
+list-style-type: none;
+transition: 0.2s;
+border-radius: 20px;
+}
+.opciones li a{
+text-decoration: none;
+
+font-size: 1.8rem;
+color: rgb(255, 217, 0);
+font-weight: 600;
+}
+.opciones li:hover{
+background-color: rgb(36, 128, 247);
+}
+/* moviles*/
+@media(max-width:768px){
+body{
+overflow: hidden;
+
+}
+.logo{
+padding-left: 25px;
+}
+.ham{
+display: block;
+position: absolute;
+cursor: pointer;
+top: 15px;
+right: 25px;
+transition: 0.2s 0.1s;
+}
+nav{
+flex-direction: column;
+align-items: flex-start;
+padding-top: 25px 0;
+}
+
+.opciones{
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+height: 92vh;
+margin: 0;
+padding: 0;
+width: 100%;
+display: none;
+opacity: 0;
+transition: opacity 5s ease-out;
+display: none;
+}
+.opciones li{
+text-align: center;
+width: 100%;
+padding: 20px;
+border-radius: 20px;
+}
+}
+h1{
+color: rgb(233, 27, 12);
+font-size: 18px;
+font-family:"Impact,Haettenschweiler,&#39;Arial Narrow Bold&#39, sans-serif";
+}
+
+@keyframes muestra{
+from{opacity: 0;}
+to{opacity: 1;}
+
+}
+.opciones.activado{
+display:flex;
+animation: muestra 350ms ease-in-out both;
+}
+.b1.animado{
+transform: rotate(-45deg);
+}
+.b2.animado{
+opacity: 0;
+}
+.b3.animado{
+transform: rotate(45deg);
+}
+.botones{
+
+border: none;
+background-color: transparent;
+text-decoration: none;
+
+font-size: 1.8rem;
+color: rgb(255, 217, 0);
+font-weight: 600;
+
+
+}
